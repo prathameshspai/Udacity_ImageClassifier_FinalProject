@@ -1,6 +1,6 @@
 {
   "objectInfo" : {
-    "id" : "aK4fOUVRO2ViUyvFJusx4W",
+    "id" : "5jQ39PCe128jNQygbWv32D",
     "name" : "Mapping1",
     "type" : "DTEMPLATE",
     "metadata" : {
@@ -9,7 +9,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "0175DJ1700000000000A"
+        "repoHandle" : "0175DJ1700000000000P"
       },
       "contextAttributes" : [ {
         "name" : "id",
@@ -23,7 +23,7 @@
     }
   },
   "dataFileExtension" : "zip",
-  "updateTime" : "2024-01-27T16:43:44.427Z",
+  "updateTime" : "2024-02-09T06:19:09.452Z",
   "objectRefs" : [ {
     "id" : "0dNcvHCPwiwg6RyqNYB8gV",
     "name" : "testconnect",
