@@ -1,0 +1,108 @@
+{
+  "objectInfo" : {
+    "id" : "b86DpnjUb0dgC2uOyi9C2f",
+    "name" : "MCT_Longrun_1min_04",
+    "type" : "MTT",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "011BMC0Z00000000000W"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "AzureSOQL map to flat file.\r\nruntime env set in configure file.\r\n",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-04-11T11:14:15.629Z",
+  "objectRefs" : [ {
+    "id" : "4bDLUg1KXSmhAygVkdU4Mq",
+    "name" : "V2API_Source",
+    "type" : "Connection",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "011BMC0B000000000004"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "Azure_SQL_Server",
+        "contentType" : "JSON",
+        "documentState" : "COMPLETE"
+      }
+    },
+    "path" : "/SYS"
+  }, {
+    "id" : "aYhVNIC57occ0g4Dly8k4h",
+    "name" : "V2API_Mapping02",
+    "type" : "DTEMPLATE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "011BMC1700000000000S"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "DO NOT CHANGE THIS !!!\nAzure MS-SQL mapping to flat file, This mapping is used for V2 API testing.\nIf agent is linux,  target directory set to /tmp, if agent is windows target directory set to c:/temp. (handled by automation script)\n\n",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/IICS_V2API"
+  }, {
+    "id" : "4bfDNX73faedaKwVvUFz61",
+    "name" : "V2API_Target",
+    "type" : "Connection",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "011BMC0B000000000003"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "COMPLETE"
+      }
+    },
+    "path" : "/SYS"
+  }, {
+    "id" : "3n7ppcIsjWtlcdfI5D9pYK",
+    "name" : "psvrlxfrs2002",
+    "type" : "AgentGroup",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "011BMC25000000000003"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/SYS"
+  } ]
+}
