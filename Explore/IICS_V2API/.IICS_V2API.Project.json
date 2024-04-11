@@ -1,0 +1,23 @@
+{
+  "objectInfo" : {
+    "id" : "1Atdk9qq1bBfYE9KVp1hAz",
+    "name" : "IICS_V2API",
+    "type" : "Project",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : null,
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "The task will be used for V2 API test.",
+        "contentType" : "Binary",
+        "documentState" : "COMPLETE"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-11T11:11:49.279Z",
+  "objectRefs" : [ ]
+}
